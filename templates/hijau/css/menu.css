@@ -1,0 +1,128 @@
+
+
+.sidebarmenu{
+margin:0px 0;
+padding:0;
+width:198px;
+}
+.sidebarmenu a.menuitem{
+	background:url(images/sidebar_menu_top.gif) no-repeat center top;
+	color: #fff;
+	display: block;
+	position: relative;
+	width:185px;
+	height:31px;
+	margin:0 0 5px 0;
+	line-height:31px;
+	padding:0px 0 0 10px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+
+	
+	
+	
+	
+	
+}
+.sidebarmenu a.menuitem_green{
+	background:url(images/green_bt.gif) no-repeat center top;
+	color: #fff;
+	display: block;
+	position: relative;
+	width:185px;
+	height:31px;
+	margin:0 0 5px 0;
+	line-height:31px;
+	padding:0px 0 0 10px;
+	text-decoration: none;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+
+}
+.sidebarmenu a.menuitem_red{
+	background:url(images/red_bt.gif) no-repeat center top;
+	color: #fff;
+	display: block;
+	position: relative;
+	width:185px;
+	height:31px;
+	margin:0 0 5px 0;
+	line-height:31px;
+	padding:0px 0 0 10px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+.sidebarmenu a.menuitem:hover{
+	background:url(images/sidebar_menu_top_a.gif) no-repeat center top;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.sidebarmenu a.menuitem_green:hover{
+	background:url(images/green_bt_a.gif) no-repeat center top;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.sidebarmenu a.menuitem_red:hover{
+	background:url(images/red_bt_a.gif) no-repeat center top;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.sidebarmenu a.menuitem:visited, .sidebarmenu .menuitem:active{
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.sidebarmenu a.menuitem .statusicon{
+	position: absolute;
+	top:11px;
+	right:7px;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+
+.sidebarmenu div.submenu{
+	background: white;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.sidebarmenu div.submenu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 5px 0;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.sidebarmenu div.submenu ul li{
+	border-bottom: 1px dotted #bfd1d9;
+	font-size: 12px;
+	font-weight: bold;
+}
+.sidebarmenu div.submenu ul li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding:5px 0;
+	padding-left: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.sidebarmenu div.submenu ul li a:hover{
+	background: #e2f0ff;
+	color: #0e4354;
+	font-size: 12px;
+	font-weight: bold;
+	
+}

@@ -1,0 +1,165 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-image: url(../images/loginbg.jpg);
+	background-repeat: repeat-x;
+}
+a:active, a:focus{outline:0}
+input:active, input:focus, input:hover{outline:0}
+#loginWrap{margin:0 auto; padding:0px; width:900px;}
+#loginMain{
+	width:485px;
+	height:280px;
+	padding:0px;
+	float:left;
+	background-image: url(../images/loginbg.png);
+	background-repeat: no-repeat;
+	margin-top: 130px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 200px;
+}
+#loginLogin{
+	width:150px;
+	height:127px;
+	float:left;
+	background-image: url(../images/loginLogo.png);
+	background-repeat: no-repeat;
+	background-position: 25px top;
+	margin-top: 80px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 70px;
+	padding-bottom: 0;
+	padding-left: 30px;
+}
+#loginhead{
+	width:108px;
+	height:36px;
+	padding:0px;
+	float:left;
+	background-image: url(../images/loginHead.png);
+	background-repeat: no-repeat;
+	margin-top: 70px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+#loginform{
+	width:70px;
+	float:left;
+	margin-top: 4px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 25px;
+	padding-top: 0;
+	padding-right: 100px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+#loginform label{width:200px; margin:0px; padding:0 217px 0 0; float:left}
+#loginform label1{
+	margin:0px;
+	float:left;
+	padding-top: 15px;
+	padding-right: 217px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+#loginform label input{
+	width:173px;
+	height:19px;
+	margin:14px 0 0 0;
+	padding:3px 0 0 10px;
+	float:left;
+	font-family:Arial;
+	font-size:12px;
+	color:#000000;
+	line-height:16px;
+	font-style:normal;
+	border:0px;
+	background-image: url(../images/loginTxt.png);
+	background-repeat: no-repeat;
+}
+#loginform label input:focus{
+	background-image: url(../images/loginTxtFocus.png);
+	background-repeat: no-repeat;
+}
+#loginform label a{
+	width:93px;
+	height:20px;
+	margin:14px 0 0 0;
+	padding:3px 0 0 0;
+	float:left;
+	font-family:Arial;
+	font-size:12px;
+	color:#FFFFFF;
+	line-height:16px;
+	text-align:center;
+	text-decoration:none;
+	background-image: url(../images/signinbutton.png);
+	background-repeat: no-repeat;
+}
+#loginform label a:active{
+	background-image: url(../images/signinbuttonfocus.png);
+	background-repeat: no-repeat;
+}
+#loginform .list{width:200px; margin:14px 0 0 0; padding:0px; float:left}
+#loginform .list a{width:auto; margin:0px; padding:0px; float:left; font-family:Arial; font-size:12px; color:#FFFFFF; line-height:16px; font-style:italic; text-decoration:none; background:none}
+#loginform .list a:hover{text-decoration:underline}
+#loginform .list .space{width:20px; height:10px; margin:0px; padding:0px; float:left}
+
+a.button, input.button {
+	font-size: 12px !important;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	font-weight: bold;
+	color: #000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2), inset 0 0 6px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2), inset 0 0 6px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2), inset 0 0 6px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+	background: #cccccc;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#EFEFEF));
+	background: -webkit-linear-gradient(#cccccc, #666666);
+	background-image: -moz-linear-gradient(top, #cccccc, #EFEFEF);
+	background-image: -moz-gradient(top, #cccccc, #EFEFEF);
+	border: 1px solid #000000;
+	padding-top: 0.4em;
+	padding-right: 0.6em;
+	padding-bottom: 0.4em;
+	padding-left: 0.6em;
+}
+a.button:hover, input.button:hover {
+  background: #cccccc;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#999999));
+  background: -webkit-linear-gradient(#cccccc, #999999);
+  background-image: -moz-linear-gradient(top, #cccccc, #999999);
+  background-image: -moz-gradient(top, #cccccc, #999999);
+}
+a.button:active, input.button:active {
+  top: 1px;
+  background: #999999;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#cccccc));
+  background: -webkit-linear-gradient(#999999, #cccccc);
+  background-image: -moz-linear-gradient(top, #999999, #cccccc);
+  background-image: -moz-gradient(top, #999999, #cccccc);
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 1px 0 0 #ffffff;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 1px 0 0 #ffffff;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 1px 0 0 #ffffff;
+}
+
+
+.warning
+{
+	color: #FF0000;
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}

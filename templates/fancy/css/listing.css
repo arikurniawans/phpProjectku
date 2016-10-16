@@ -1,0 +1,148 @@
+
+* {
+	padding:0px;
+	margin:0px;
+}
+body {
+font-size:11px;	
+}
+
+a img {
+	border:none;
+}
+.clear {
+	clear:both;
+}
+
+
+h1 {
+	font-size:22px;
+	font-weight:normal;
+}
+h2 {
+	font-size:20px;
+	font-weight:normal;
+}
+h3 {
+	font-size:18px;
+	font-weight:normal;
+}
+h4 {
+	font-size:16px;
+	font-weight:normal;
+}
+h5 {
+	font-size:14px;
+	font-weight:normal;
+}
+h6 {
+	font-size:16px;
+	font-weight:normal;
+}
+
+
+
+.bold {
+	font-weight:bold;
+	text-align: center;
+}
+.white {
+	color:#fff !important;
+	text-align: center;
+}
+
+
+
+ul.listinggrids{
+
+	float:left;
+	list-style:none;
+}
+ul.listinggrids li{
+	width:160px;
+	height:320px;
+	background:url(../images/libg1.png) no-repeat;
+	float:left;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	padding-top: 10px;}
+	
+	
+ul.listinggrids li:hover{
+	background:url(../images/libg1_hover.png) no-repeat;
+}
+ul.listinggrids li.last{
+	margin:0px 0px 10px 0px;
+}
+ul.listinggrids li a.thumb{
+
+border:#000 solid 1px;}
+	
+	
+ul.listinggrids li h6{
+	float:left;
+	padding:0px 0px 10px 0px;
+}
+ul.listinggrids li .cont{
+	float:left;
+}
+ul.listinggrids li .cont a.good{
+	width:13px;
+	height:12px;
+	background:url(../images/hearts.png) no-repeat top;
+	float:left;
+	display:inline-block;
+	margin-right:1px;
+}
+ul.listinggrids li .cont a.bad{
+	width:13px;
+	height:12px;
+	background:url(../images/hearts.png) no-repeat bottom;
+	float:left;
+	display:inline-block;
+	margin-right:1px;
+}
+ul.listinggrids li .cont a.review{
+	margin-left:10px;
+	text-decoration:underline;
+}
+ul.listinggrids li .cont p.price{
+	font-size:14px;
+	color:#666666;
+	font-weight:bold;
+	margin-top:5px;
+}
+ul.listinggrids li a.addtocart{
+	width:141px;
+	height:30px;
+	padding:4px 0px 0px 30px;
+	background:url(../images/cart1.png) no-repeat 0px 0px;
+	display:inline-block;
+	margin:36px 0px 0px 0px;
+	color:#FFF;
+	font-size:12px;
+}
+
+
+.product_title2{
+	color:#720093;
+    font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+    text-align: center;}
+
+.product_title2 a{
+	color:#464646;
+	font-size: 12px;
+	text-align: center;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+	
+.product_title2 a:hover{
+text-align: center;
+color:#FF9900;
+font-family:  Arial, Helvetica, sans-serif;
+}
+
